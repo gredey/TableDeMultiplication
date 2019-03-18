@@ -17,5 +17,18 @@
 				</div>
 			</div>
 		</body>
-		
+		<script> 
+				$(document).ready(function(){
+
+    				$('#but').on('click',function(){
+        				var $chiffre = $('#but').val();
+        				var $result;
+        				for(var $i=0; $i<=10; $i++){
+        					$result=$chiffre*$i;
+        					alert($chiffre+"x"+$i+"="+$result);
+        				}
+    				});
+     
+				});
+			</script>
 	</html>
